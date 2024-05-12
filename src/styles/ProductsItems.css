@@ -1,0 +1,130 @@
+.productsItems-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+  list-style: none;
+  width: 100%;
+}
+
+.hide-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  width: 100%;
+  gap: 45px;
+  max-width: 1200px;
+  list-style: none;
+}
+
+@media screen and (max-width: 480px) {
+  .productsItems-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .hide-items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+  }
+}
+
+.products-image {
+  border-radius: 5px;
+  cursor: pointer;
+  width: 200px;
+  height: 300px;
+  object-fit: fill;
+}
+
+@media screen and (max-width: 480px) {
+  .products-image {
+    width: 150px;
+    height: 200px;
+  }
+}
+
+.products-image:hover {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  width: 270px;
+  height: 20px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 21.6px;
+  text-align: left;
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    width: 168px;
+    height: 17px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-align: left;
+  }
+  .li-container {
+    width: 200px;
+  }
+}
+
+.heart-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  /* margin: 20px 0; */
+  /* background-color: aqua; */
+}
+
+.sin {
+  padding: 15px 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: left;
+  color: rgba(136, 135, 146, 1);
+  margin-top: 30px;
+  width: 150px;
+}
+
+.heart {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.heart-color {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.sin span {
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  text-align: left;
+}
+
+/* @media screen and (max-width: 768px) {
+  .productsItems-container {
+    grid-template-columns: 50% 50%;
+  }
+  .products-image {
+    width: 168px;
+    height: 224px;
+  }
+} */
+
+@media screen and (min-width: 768px) {
+  /* .menu-mobile {
+      display: none;
+    } */
+}

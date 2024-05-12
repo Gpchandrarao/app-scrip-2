@@ -1,0 +1,260 @@
+.products-container {
+  padding: 0 96px;
+}
+
+.product-heading {
+  margin: 30px 360px 20px 356px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.product-heading h1 {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.product-heading h4 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+  width: 721px;
+  height: 80px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.recommended-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 0;
+}
+
+.items-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.items {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+}
+
+.hide-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.filter-heading {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: right;
+  color: rgba(136, 135, 146, 1);
+  text-decoration: underline;
+}
+
+.select-container {
+  border: none;
+}
+
+.recom {
+  height: 324px;
+  width: 235px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+  padding: 30px;
+}
+
+.option {
+  padding: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: right;
+}
+
+.filter-products-container {
+  margin-top: 32px;
+  display: flex;
+  gap: 16px;
+}
+
+.filter-container {
+  width: 300px;
+}
+
+.filter-items {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 26px;
+}
+
+.checkbox {
+  background: rgba(255, 255, 255, 1);
+  width: 22px;
+  height: 22px;
+  gap: 0px;
+  border: 0.92px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.filter-items h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  text-align: left;
+}
+
+.details {
+  margin: 24px 0;
+
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  text-align: left;
+}
+
+summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+summary::before {
+  content: "\25BC";
+  float: right;
+  margin-left: 10px;
+}
+
+summary p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+}
+
+.unselect-all {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+  color: rgba(191, 200, 205, 1);
+  text-decoration: underline;
+  margin-top: 24px;
+}
+
+.filter-values {
+  display: flex;
+  gap: 8px;
+  margin: 25px 0 24px 0;
+}
+
+.filter-checkbox {
+  width: 18px;
+  height: 18px;
+  gap: 0px;
+  border: 0.75px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.catergoy {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .items {
+    display: none;
+  }
+  .product-heading {
+    width: 343px;
+    height: 127px;
+    padding: 0px 0px 16px 0px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 15px 20px;
+  }
+  .product-heading h1 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+  }
+  .product-heading h4 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+  }
+  .mobie-home-container {
+    width: Fixed (343px) px;
+    height: Hug (46px) px;
+    padding: 16px 0px 16px 0px;
+    gap: 8px;
+    opacity: 0px;
+    display: flex;
+    list-style-type: none;
+  }
+  .mobie-home {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    text-align: left;
+    color: rgba(191, 200, 205, 1);
+  }
+  .mobile-shop {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    text-align: left;
+    color: rgba(37, 32, 32, 1);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .products-container{
+    padding: 0 20px;
+  }
+  .product-heading h1 {
+    width: 259px;
+    height: 29px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .product-heading h4 {
+    width: 343px;
+    height: 66px;
+    top: 45px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .mobie-home-container {
+    display: none;
+  }
+}
